@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var diem_vat_ly;
+    var diem_sinh_hoc;
+    var diem_hoa_hoc;
+
+
+    var diem_vat_ly = parseInt(prompt("nhap vao so diem vat ly"));
+    var diem_sinh_hoc = parseInt(prompt("nhap vao so diem sinh hoc"));
+    var diem_hoa_hoc = parseInt(prompt("nhap vao so diem hoa hoc"));
+
+    var tong_diem = diem_hoa_hoc + diem_sinh_hoc + diem_vat_ly;
+    var diem_trung_binh = tong_diem / 3;
+
+    document.write("tong_diem = " + tong_diem);
+    document.write("<br/>");
+    document.write("diem_trung_binh = " + diem_trung_binh);
+
+</script>
+</body>
+</html>
